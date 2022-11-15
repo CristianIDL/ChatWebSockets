@@ -1,0 +1,190 @@
+html{
+    font-family: Geneva, Tahoma, Verdana, sans-serif; 
+    background-color:#ff99e9;
+    background-image:
+        radial-gradient(at 77% 28%, hsla(17,84%,66%,1) 0px, transparent 50%),
+        radial-gradient(at 82% 73%, hsla(326,94%,65%,1) 0px, transparent 50%),
+        radial-gradient(at 95% 19%, hsla(45,72%,68%,1) 0px, transparent 50%),
+        radial-gradient(at 63% 71%, hsla(172,79%,79%,1) 0px, transparent 50%),
+        radial-gradient(at 30% 61%, hsla(289,92%,63%,1) 0px, transparent 50%),
+        radial-gradient(at 26% 97%, hsla(232,64%,66%,1) 0px, transparent 50%),
+        radial-gradient(at 75% 88%, hsla(252,96%,62%,1) 0px, transparent 50%);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenido{
+    display: block;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    height: 60%;
+    width: 35%;
+    padding: 4px;
+    overflow-y:auto;
+}
+
+.contenido_top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background: #ffffff;
+    opacity: 90%;;
+    width: 35%;
+    padding: 4px;
+    overflow-y:auto;
+}
+.contenido_bot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background: #ffffff;
+    width: 35%;
+    padding: 4px;
+    overflow-y:auto;
+}
+
+.mensajes{
+    padding: 8px;
+    
+}
+
+.header{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background-color:hsla(344,52%,43%,1);
+    background-image:
+    radial-gradient(at 8% 90%, hsla(300,84%,31%,1) 0px, transparent 50%),
+    radial-gradient(at 78% 26%, hsla(354,92%,62%,1) 0px, transparent 50%);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    width: 100%;
+    padding-block: 1rem;
+}
+
+.header_modal{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background-color:hsla(344,52%,43%,1);
+    background-image:
+    radial-gradient(at 8% 90%, hsla(300,84%,31%,1) 0px, transparent 50%),
+    radial-gradient(at 78% 26%, hsla(354,92%,62%,1) 0px, transparent 50%);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    width: 100%;
+    padding-block: 1rem;
+}
+
+.options{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0%;
+    vertical-align: bottom;
+    color: white;
+    background-color:hsla(344,52%,43%,1);
+    background-image:
+    radial-gradient(at 8% 90%, hsla(300,84%,31%,1) 0px, transparent 50%),
+    radial-gradient(at 78% 26%, hsla(354,92%,62%,1) 0px, transparent 50%);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 100%;
+    padding-block: 1rem;
+    overflow: auto;
+}
+
+body{
+    margin: auto;
+    height: 80%;
+    padding: 5%;
+    padding-block: center;
+}
+
+input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-sizing: border-box;
+  }
+
+button {
+    width: 20%;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;   
+    padding: 10px;
+    border-color: transparent;
+    color: white;
+    background-color:gray;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(100, 94, 94);
+    }
+
+button:active {
+    background-color: rgb(75, 66, 66);
+}
+
+/**CSS MODAL*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
